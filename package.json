@@ -1,0 +1,19 @@
+{
+  "name": "automation-starter-kit",
+  "version": "1.0.0",
+  "description": "An automation starter kit",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm t",
+    "test": "nightwatch tests"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chromedriver": "^2.31.0",
+    "mocha": "^3.4.2",
+    "nightwatch": "^0.9.16",
+    "selenium-server-standalone-jar": "^3.4.0"
+  }
+}
